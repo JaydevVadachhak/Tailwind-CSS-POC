@@ -1,0 +1,4 @@
+/* Apply Tailwind's default configuration */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

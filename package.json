@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-css-poc",
+  "version": "1.0.0",
+  "description": "POC of Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "serve": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydevVadachhak/Tailwind-CSS-POC.git"
+  },
+  "author": "Jaydev Vadachhak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaydevVadachhak/Tailwind-CSS-POC/issues"
+  },
+  "homepage": "https://github.com/JaydevVadachhak/Tailwind-CSS-POC#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.13"
+  }
+}
