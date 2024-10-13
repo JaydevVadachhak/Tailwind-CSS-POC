@@ -1,3 +1,6 @@
+/* Clipboard */
+@import './clipboard-website/styles.css';
+
 /* Apply Tailwind's default configuration */
 @tailwind base;
 @tailwind components;

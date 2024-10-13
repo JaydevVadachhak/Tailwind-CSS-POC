@@ -11,7 +11,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ['Mulish', 'sans-serif'],
+      // sans: ['Mulish', 'sans-serif'],
+      sans: ['Bai Jamjuree', 'sans-serif'],
       mono: ['Rokkitt', 'monospace']
     },
     screens: {
