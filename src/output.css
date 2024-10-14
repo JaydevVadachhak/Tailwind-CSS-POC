@@ -205,7 +205,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Bai Jamjuree, sans-serif;
+  font-family: Mulish, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -629,6 +629,34 @@ h5 {
   color: hsl(210 10% 33% / var(--tw-text-opacity));
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 976px) {
+  .container {
+    max-width: 976px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -649,6 +677,10 @@ h5 {
   right: 0px;
 }
 
+.right-10 {
+  right: 2.5rem;
+}
+
 .right-4 {
   right: 1rem;
 }
@@ -661,8 +693,16 @@ h5 {
   top: 0px;
 }
 
+.top-3 {
+  top: 0.75rem;
+}
+
 .top-5 {
   top: 1.25rem;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .m-0 {
@@ -798,6 +838,13 @@ h5 {
   box-sizing: border-box;
 }
 
+.line-clamp-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -902,6 +949,10 @@ h5 {
   max-width: 72rem;
 }
 
+.max-w-7xl {
+  max-width: 80rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -930,6 +981,10 @@ h5 {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -970,6 +1025,10 @@ h5 {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -1154,6 +1213,16 @@ h5 {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .bg-green-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
@@ -1162,6 +1231,11 @@ h5 {
 .bg-lightBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
+}
+
+.bg-purple-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
 }
 
 .bg-rose-50 {
@@ -1220,6 +1294,10 @@ h5 {
 
 .p-0 {
   padding: 0px;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-2 {
@@ -1310,12 +1388,20 @@ h5 {
   text-align: center;
 }
 
+.font-clipSans {
+  font-family: Bai Jamjuree, sans-serif;
+}
+
 .font-mono {
   font-family: Rokkitt, monospace;
 }
 
 .font-sans {
-  font-family: Bai Jamjuree, sans-serif;
+  font-family: Mulish, sans-serif;
+}
+
+.font-tgSans {
+  font-family: Barlow Semi Condensed, sans-serif;
 }
 
 .text-2xl {
@@ -1424,6 +1510,11 @@ h5 {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
 .text-grayishBlue {
   --tw-text-opacity: 1;
   color: hsl(201 11% 66% / var(--tw-text-opacity));
@@ -1447,6 +1538,14 @@ h5 {
   opacity: 0;
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1468,6 +1567,17 @@ h5 {
 .shadow-cyan-100 {
   --tw-shadow-color: #cffafe;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.ring-2 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.ring-purple-300 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(216 180 254 / var(--tw-ring-opacity));
 }
 
 .transition {
@@ -1505,11 +1615,11 @@ h5 {
 }
 
 .placeholder\:font-sans::-moz-placeholder {
-  font-family: Bai Jamjuree, sans-serif;
+  font-family: Mulish, sans-serif;
 }
 
 .placeholder\:font-sans::placeholder {
-  font-family: Bai Jamjuree, sans-serif;
+  font-family: Mulish, sans-serif;
 }
 
 .placeholder\:text-xs::-moz-placeholder {
@@ -1681,8 +1791,24 @@ h5 {
     position: absolute;
   }
 
+  .md\:right-24 {
+    right: 6rem;
+  }
+
   .md\:top-4 {
     top: 1rem;
+  }
+
+  .md\:top-7 {
+    top: 1.75rem;
+  }
+
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:row-span-2 {
+    grid-row: span 2 / span 2;
   }
 
   .md\:m-0 {
@@ -1714,6 +1840,10 @@ h5 {
     display: block;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:h-64 {
     height: 16rem;
   }
@@ -1732,6 +1862,14 @@ h5 {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -1799,6 +1937,10 @@ h5 {
   .md\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
   }
 
   .md\:p-12 {
