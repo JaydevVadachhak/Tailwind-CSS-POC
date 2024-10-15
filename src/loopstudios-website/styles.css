@@ -1,0 +1,18 @@
+@layer base {
+    ul > li {
+        @apply cursor-pointer hover:underline hover:underline-offset-8 text-white font-bold font-lsAlata;
+    }
+}
+
+#hero {
+    background: url('../assets/loopstudios/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    #hero {
+        background-position: center;
+    }
+}

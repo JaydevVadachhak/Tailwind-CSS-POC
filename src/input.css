@@ -1,5 +1,6 @@
 /* Clipboard */
 @import './clipboard-website/styles.css';
+@import './loopstudios-website/styles.css';
 
 /* Apply Tailwind's default configuration */
 @tailwind base;

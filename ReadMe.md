@@ -35,3 +35,19 @@ tailwind 3.4.13
 ![Login Modal](src/assets/blueprints/mini_p_5.png)
 
 ---
+
+### Testimonial Grid (Design Reference - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7))
+![Testimonial Grid](src/assets/blueprints/mini_p_6.png)
+
+---
+
+### Clipboard Website (Design Reference - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9))
+![Clipboard Website](src/assets/blueprints/web_p_1.png)
+
+---
+
+### LoopStudios Website (Design Reference - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw))
+![Clipboard Website](src/assets/blueprints/web_p_2.png)
+
+---
+
