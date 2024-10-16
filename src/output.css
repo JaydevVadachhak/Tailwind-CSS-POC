@@ -1981,6 +1981,18 @@ ul > li:hover {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:underline {
+  text-decoration-line: underline;
+}
+
+.group:hover .group-hover\:underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+.group:hover .group-hover\:underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
 }
