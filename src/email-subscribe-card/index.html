@@ -9,7 +9,22 @@
     <link rel="stylesheet" href="../output.css" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../assets/tailwindcss.svg">
+    <link rel="icon" type="image/x-icon" href="../assets/tailwindcss.svg" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B09YD4TY26"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-B09YD4TY26");
+    </script>
   </head>
   <body>
     <!-- Container -->
@@ -42,7 +57,11 @@
                 placeholder="Email Address"
                 class="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
               />
-              <button class="px-5 py-3 text-xs rounded-md text-zinc-800 bg-blue-500 hover:bg-blue-700 hover:text-white duration-500">Subscribe</button>
+              <button
+                class="px-5 py-3 text-xs rounded-md text-zinc-800 bg-blue-500 hover:bg-blue-700 hover:text-white duration-500"
+              >
+                Subscribe
+              </button>
             </div>
           </div>
         </div>

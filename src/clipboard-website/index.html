@@ -13,170 +13,252 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="../output.css" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../assets/tailwindcss.svg" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B09YD4TY26"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-B09YD4TY26");
+    </script>
   </head>
   <body class="clipboard-body font-clipSans">
     <!-- Hero -->
-     <section id="hero">
+    <section id="hero">
       <div class="section-container mb-40 pt-16">
-        <img src="../assets/clipboard/logo.svg" alt="clipboard" class="mx-auto my-16">
+        <img
+          src="../assets/clipboard/logo.svg"
+          alt="clipboard"
+          class="mx-auto my-16"
+        />
         <h3>Lorem ipsum dolor sit.</h3>
-        <p class="max-w-3xl mb-10 text-2xl mx-auto text-center text-grayishBlue">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tenetur excepturi doloribus!
+        <p
+          class="max-w-3xl mb-10 text-2xl mx-auto text-center text-grayishBlue"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tenetur
+          excepturi doloribus!
         </p>
         <div class="button-container">
-          <button class="rounded-full p-4 px-8 shadow-lg bg-strongCyan duration-200 text-white hover:opacity-80">Download for iOS</button>
-          <button class="rounded-full p-4 px-8 shadow-lg bg-lightBlue duration-200 text-white hover:opacity-80">Download for Android</button>
+          <button
+            class="rounded-full p-4 px-8 shadow-lg bg-strongCyan duration-200 text-white hover:opacity-80"
+          >
+            Download for iOS
+          </button>
+          <button
+            class="rounded-full p-4 px-8 shadow-lg bg-lightBlue duration-200 text-white hover:opacity-80"
+          >
+            Download for Android
+          </button>
         </div>
       </div>
-     </section>
+    </section>
 
-     <!-- Snippets -->
-      <section id="snippets">
-        <div class="section-container my-20">
-          <h3>Lorem, ipsum dolor</h3>
-          <p class="max-w-3xl mx-auto text-xl mb-24 text-center leading-9 text-grayishBlue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ipsum dolore, sed numquam reprehenderit voluptatum dolorum voluptate magnam alias laborum?</p>
+    <!-- Snippets -->
+    <section id="snippets">
+      <div class="section-container my-20">
+        <h3>Lorem, ipsum dolor</h3>
+        <p
+          class="max-w-3xl mx-auto text-xl mb-24 text-center leading-9 text-grayishBlue"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error ipsum
+          dolore, sed numquam reprehenderit voluptatum dolorum voluptate magnam
+          alias laborum?
+        </p>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="section-container my-20">
+        <div class="relative flex flex-col md:flex-row gap-12">
+          <!-- Image -->
+          <div class="md:w-1/2">
+            <img
+              src="../assets/clipboard/image-computer.png"
+              alt="computer"
+              class="md:absolute top-0 right-[50%]"
+            />
+          </div>
+          <!-- Items -->
+          <div
+            class="md:w-1/2 flex flex-col text-xl mt-16 mb-24 md:mb-60 gap-14 items-center md:pl-16 md:text-left"
+          >
+            <div>
+              <h5 class="text-2xl text-darkGrayishBlue font-bold">
+                Lorem, ipsum
+              </h5>
+              <p class="max-w-md text-grayishBlue">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur enim laudantium laboriosam numquam dolore autem.
+              </p>
+            </div>
+            <div>
+              <h5 class="text-2xl text-darkGrayishBlue font-bold">
+                Lorem, ipsum
+              </h5>
+              <p class="max-w-md text-grayishBlue">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur enim laudantium laboriosam numquam dolore autem.
+              </p>
+            </div>
+            <div>
+              <h5 class="text-2xl text-darkGrayishBlue font-bold">
+                Lorem, ipsum
+              </h5>
+              <p class="max-w-md text-grayishBlue">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Pariatur enim laudantium laboriosam numquam dolore autem.
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Features -->
-       <section id="features">
-        <div class="section-container my-20">
-          <div class="relative flex flex-col md:flex-row gap-12">
-            <!-- Image -->
-            <div class="md:w-1/2">
-               <img src="../assets/clipboard/image-computer.png" alt="computer" class="md:absolute top-0 right-[50%]">
-            </div>
-            <!-- Items -->
-             <div class="md:w-1/2 flex flex-col text-xl mt-16 mb-24 md:mb-60 gap-14 items-center md:pl-16 md:text-left">
-              <div>
-                <h5 class="text-2xl text-darkGrayishBlue font-bold">Lorem, ipsum</h5>
-                <p class="max-w-md text-grayishBlue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur enim laudantium laboriosam numquam dolore autem.</p>
-              </div>
-              <div>
-                <h5 class="text-2xl text-darkGrayishBlue font-bold">Lorem, ipsum</h5>
-                <p class="max-w-md text-grayishBlue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur enim laudantium laboriosam numquam dolore autem.</p>
-              </div>
-              <div>
-                <h5 class="text-2xl text-darkGrayishBlue font-bold">Lorem, ipsum</h5>
-                <p class="max-w-md text-grayishBlue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur enim laudantium laboriosam numquam dolore autem.</p>
-              </div>
-             </div>
+    <!-- Access Anywhere -->
+    <section id="access">
+      <div class="section-container my-20">
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p class="text-xl mb-20 text-grayishBlue">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+          ipsa cupiditate recusandae libero labore dignissimos.
+        </p>
+        <img
+          src="../assets/clipboard/image-devices.png"
+          alt="devices"
+          class="mx-auto"
+        />
+      </div>
+    </section>
+
+    <!-- Supercharge -->
+    <section id="supercharge">
+      <div class="section-container my-20">
+        <h3 class="mb-8">Lorem ipsum dolor sit amet</h3>
+        <p class="text-xl mb-20 text-grayishBlue">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+        <div class="flex flex-col gap-12 md:flex-row md:gap-14">
+          <div class="flex flex-col gap-4 items-center">
+            <img src="../assets/clipboard/icon-blacklist.svg" alt="blacklist" />
+            <h5>Lorem, ipsum</h5>
+            <p class="section-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              sit voluptatibus doloremque?
+            </p>
+          </div>
+          <div class="flex flex-col gap-4 items-center">
+            <img src="../assets/clipboard/icon-text.svg" alt="blacklist" />
+            <h5>Lorem, ipsum</h5>
+            <p class="section-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              sit voluptatibus doloremque?
+            </p>
+          </div>
+          <div class="flex flex-col gap-4 items-center">
+            <img src="../assets/clipboard/icon-preview.svg" alt="blacklist" />
+            <h5>Lorem, ipsum</h5>
+            <p class="section-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              sit voluptatibus doloremque?
+            </p>
           </div>
         </div>
-       </section>
+      </div>
+    </section>
 
-       <!-- Access Anywhere -->
-        <section id="access">
-          <div class="section-container my-20">
-            <h3>Lorem ipsum dolor sit.</h3>
-            <p class="text-xl mb-20 text-grayishBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsa cupiditate recusandae libero labore dignissimos.</p>
-            <img src="../assets/clipboard/image-devices.png" alt="devices" class="mx-auto">
-          </div>
-        </section>
+    <!-- References -->
+    <section id="references">
+      <div
+        class="flex flex-col items-center justify-between md:flex-row gap-16 max-w-6xl my-44 mx-auto px-10"
+      >
+        <img src="../assets/clipboard/logo-google.png" alt="google-logo" />
+        <img src="../assets/clipboard/logo-hp.png" alt="hp-logo" />
+        <img
+          src="../assets/clipboard/logo-microsoft.png"
+          alt="microsoft-logo"
+        />
+        <img src="../assets/clipboard/logo-ibm.png" alt="ibm-logo" />
+        <img
+          src="../assets/clipboard/logo-vector-graphics.png"
+          alt="vector-graphics-logo"
+        />
+      </div>
+    </section>
 
-        <!-- Supercharge -->
-         <section id="supercharge">
-          <div class="section-container my-20">
-            <h3 class="mb-8">Lorem ipsum dolor sit amet</h3>
-            <p class="text-xl mb-20 text-grayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <div class="flex flex-col gap-12 md:flex-row md:gap-14">
-              <div class="flex flex-col gap-4 items-center">
-                <img src="../assets/clipboard/icon-blacklist.svg" alt="blacklist">
-                <h5>Lorem, ipsum</h5>
-                <p class="section-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat sit voluptatibus doloremque?</p>
+    <!-- Footer Actions -->
+    <footer class="bg-gray-50">
+      <div class="section-container">
+        <div class="flex flex-col items-center justify-between md:flex-row">
+          <!-- Image -->
+          <img src="../assets/clipboard/logo.svg" alt="" class="scale-50" />
+          <!-- Container for Menus & Social -->
+          <div
+            class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
+          >
+            <!-- Menus -->
+            <div
+              class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
+            >
+              <!-- Menu 1 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div><a href="#" class="hover:text-strongCyan">FAQs</a></div>
+                <div>
+                  <a href="#" class="hover:text-strongCyan">Contact Us</a>
+                </div>
               </div>
-              <div class="flex flex-col gap-4 items-center">
-                <img src="../assets/clipboard/icon-text.svg" alt="blacklist">
-                <h5>Lorem, ipsum</h5>
-                <p class="section-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat sit voluptatibus doloremque?</p>
+              <!-- Menu 2 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div>
+                  <a href="#" class="hover:text-strongCyan">Privacy Policy</a>
+                </div>
+                <div>
+                  <a href="#" class="hover:text-strongCyan">Press Kit</a>
+                </div>
               </div>
-              <div class="flex flex-col gap-4 items-center">
-                <img src="../assets/clipboard/icon-preview.svg" alt="blacklist">
-                <h5>Lorem, ipsum</h5>
-                <p class="section-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat sit voluptatibus doloremque?</p>
-              </div>
-            </div>
-          </div>
-         </section>
-
-         <!-- References -->
-          <section id="references">
-            <div class="flex flex-col items-center justify-between md:flex-row gap-16 max-w-6xl my-44 mx-auto px-10">
-              <img src="../assets/clipboard/logo-google.png" alt="google-logo">
-              <img src="../assets/clipboard/logo-hp.png" alt="hp-logo">
-              <img src="../assets/clipboard/logo-microsoft.png" alt="microsoft-logo">
-              <img src="../assets/clipboard/logo-ibm.png" alt="ibm-logo">
-              <img src="../assets/clipboard/logo-vector-graphics.png" alt="vector-graphics-logo">
-            </div>
-          </section>
-
-          <!-- Footer Actions -->
-          <footer class="bg-gray-50">
-            <div class="section-container">
-              <div class="flex flex-col items-center justify-between md:flex-row">
-                <!-- Image -->
-                <img src="../assets/clipboard/logo.svg" alt="" class="scale-50" />
-                <!-- Container for Menus & Social -->
-                <div
-                  class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
-                >
-                  <!-- Menus -->
-                  <div
-                    class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
-                  >
-                    <!-- Menu 1 -->
-                    <div class="flex flex-col space-y-4 text-center md:text-left">
-                      <div><a href="#" class="hover:text-strongCyan">FAQs</a></div>
-                      <div>
-                        <a href="#" class="hover:text-strongCyan">Contact Us</a>
-                      </div>
-                    </div>
-                    <!-- Menu 2 -->
-                    <div class="flex flex-col space-y-4 text-center md:text-left">
-                      <div>
-                        <a href="#" class="hover:text-strongCyan">Privacy Policy</a>
-                      </div>
-                      <div>
-                        <a href="#" class="hover:text-strongCyan">Press Kit</a>
-                      </div>
-                    </div>
-                    <!-- Menu 3 -->
-                    <div class="flex flex-col space-y-4 text-center md:text-left">
-                      <div>
-                        <a href="#" class="hover:text-strongCyan">Install Guide</a>
-                      </div>
-                    </div>
-                  </div>
-      
-                  <!-- Social Icons -->
-                  <div class="flex justify-between w-32 py-1">
-                    <a href="#"
-                      ><img
-                        src="../assets/clipboard/icon-facebook.svg"
-                        alt=""
-                        class="duration-200 ficon"
-                    /></a>
-                    <a href="#"
-                      ><img
-                        src="../assets/clipboard/icon-twitter.svg"
-                        alt=""
-                        class="duration-200 ficon"
-                    /></a>
-                    <a href="#"
-                      ><img
-                        src="../assets/clipboard/icon-instagram.svg"
-                        alt=""
-                        class="duration-200 ficon"
-                    /></a>
-                  </div>
+              <!-- Menu 3 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div>
+                  <a href="#" class="hover:text-strongCyan">Install Guide</a>
                 </div>
               </div>
             </div>
-          </footer>
 
+            <!-- Social Icons -->
+            <div class="flex justify-between w-32 py-1">
+              <a href="#"
+                ><img
+                  src="../assets/clipboard/icon-facebook.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="../assets/clipboard/icon-twitter.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+              <a href="#"
+                ><img
+                  src="../assets/clipboard/icon-instagram.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
