@@ -1821,10 +1821,6 @@ ul > li:hover {
   font-weight: 100;
 }
 
-.hover\:-z-10:hover {
-  z-index: -10;
-}
-
 .hover\:-translate-y-0\.5:hover {
   --tw-translate-y: -0.125rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1983,10 +1979,6 @@ ul > li:hover {
 
 .group:hover .group-hover\:underline {
   text-decoration-line: underline;
-}
-
-.group:hover .group-hover\:underline-offset-2 {
-  text-underline-offset: 2px;
 }
 
 .group:hover .group-hover\:underline-offset-4 {
