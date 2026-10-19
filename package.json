@@ -20,7 +20,7 @@
   "homepage": "https://github.com/JaydevVadachhak/Tailwind-CSS-POC#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^4.3.3"
   },
   "dependencies": {
     "postcss-import": "^16.1.0"
